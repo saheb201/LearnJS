@@ -95,12 +95,15 @@ var b = 21;
 // }else{console.log('You are fail')}
 
 //4. Perform arithmetic operations on two numbers(+, -, *, / , % , **, ++, _ _ );
-var a = 20;
-var b = 15;
+// var a = 20;
+// var b = 15;
 
-console.log(a+b);
-console.log(a-b);
-console.log(a*b);
-console.log(a/b);
-console.log(a%b);
-console.log(a**b);
+// console.log(a+b);
+// console.log(a-b);
+// console.log(a*b);
+// console.log(a/b);
+// console.log(a%b);
+// console.log(a**b);
+
+//6. find small   numbers (10, 55, 9);
+console.log(Math.min(10, 55, 9))
