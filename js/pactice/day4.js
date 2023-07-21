@@ -83,25 +83,44 @@ console.log(oddSum)
 
 //#9 — Print the reverse numbers from array
 
-var arr= [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for(var i = 0; i < arr.length/2; i++){
-    var temp = arr[i]
-    arr[i] = arr[arr.length  -1 -i]
-    arr[arr.length -1 -i] == temp
+// var arr= [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for(var i = 0; i < arr.length/2; i++){
+//     var temp = arr[i]
+//     arr[i] = arr[arr.length  -1 -i]
+//     arr[arr.length -1 -i] == temp
    
-}
-	console.log(arr)
+// }
+// 	console.log(arr)
 
-    //#10 — Print the  numbers from multidaimantion array 
-    arr = [
-        [50,55,77,44],
-         [22,44,77,66],
-        [55,77,88,42]
-    ]
+    // //#10 — Print the  numbers from multidaimantion array 
+    // arr = [
+    //     [50,55,77,44],
+    //      [22,44,77,66],
+    //     [55,77,88,42]
+    // ]
 
-    for(var i = 0; i<arr.length; i++){
-        // console.log(arr[i])
-        for(var j = 0; j<arr[i].length; j++){
-            console.log('element ' + i + " : " + arr[i][j])
+    // for(var i = 0; i<arr.length; i++){
+    //     // console.log(arr[i])
+    //     for(var j = 0; j<arr[i].length; j++){
+    //         console.log('element ' + i + " : " + arr[i][j])
+    //     }
+    // }
+
+    // // #9-- Write a JS code to print a pattern using for loop(
+	// // 	example		
+	// // 	1 
+	// // 	1 2
+	// // 	1 2 3 
+	// // 	1 2 3 4
+	// // 	1 2 3 4 5 )
+     var num = 5;
+    for(var i = 1; i<=num; i++){
+        var result = " "
+
+        for(var j = 1; j<=i; j++){
+            result += j
+           
         }
-    }
+        console.log(result)
+    } 
+

@@ -25,3 +25,6 @@ switch(today){
     case 6 : console.log('SaturDay'); break;
     
 }
+
+
+
