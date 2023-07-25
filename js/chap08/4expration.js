@@ -10,5 +10,5 @@
 
 //set time out function
 setTimeout(function(){
-    console.log(" i will call after 5 seondu")
+    console.log(" i will call after 5 seonde")
 },5000)
